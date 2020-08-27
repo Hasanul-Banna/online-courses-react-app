@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+.App{
+    background: #26b585;
+}
+h1 {
+    text-align: center;
+}
+.container-fluid {
+    display: flex;
+}
+.courses{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+    border-right: 5px solid teal;
+}
+button{
+    cursor: pointer;
+}
